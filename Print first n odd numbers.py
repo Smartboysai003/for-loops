@@ -1,0 +1,5 @@
+#Print first n odd numbers
+n=int(input())
+for i in range (1,n*2,2):
+    print(i,end=' ')
+    
